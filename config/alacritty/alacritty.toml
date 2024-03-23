@@ -1,0 +1,39 @@
+import = [
+  "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+live_config_reload = true
+working_directory = "/home/hanoch/Dev/Sandbox/"
+shell = "/usr/bin/zsh"
+
+[window]
+startup_mode    = "Maximized"
+decorations = "None"
+opacity = 1
+padding = { x = 0, y = 0 }
+
+[env]
+WINIT_X11_SCALE_FACTOR = "2"
+#TERM = "alacritty"
+
+[scrolling]
+history = 10000
+multiplier = 5
+
+[font]
+size = 12
+builtin_box_drawing = true
+bold = { family = "JetBrainsMono Nerd Font", style  = "Bold" }
+bold_italic = { family = "JetBrainsMono Nerd Font", style = "Medium" }
+italic = { family = "JetBrainsMono Nerd Font", style  = "Light Italic" }
+normal = { family = "JetBrainsMono Nerd Font", style  = "Normal" }
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[cursor]
+style = { shape = "Beam", blinking = "On" }
+
+[mouse]
+hide_when_typing = true
+
